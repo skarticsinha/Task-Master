@@ -9,10 +9,9 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between p-24">
       <h1>Task Master</h1>
+      <Button variant="secondary">Button</Button>
 
-    <form action={signInAction}>
-      <Button>LogIn</Button>
-    </form>
+    <Tasks />
     </main>
   );
 }
